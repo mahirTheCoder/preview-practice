@@ -121,6 +121,10 @@ ol {
 }
 
 
+.multipleS {
+  
+  margin-right: 26px;
+}
 
 
 
@@ -133,39 +137,81 @@ ol {
 
 
 
+/* ----------------------section service--------------- */
+
+#services {
+  margin-top: 100px;
+}
+
+.imgtextBoth img {
+width: 49px;
+height: 49px;
+}
+
+
+.imgtextBoth p {
+font-size: 20px;
+font-weight: 400;
+}
+
+.imgtextBoth {
+  display: flex;
+  justify-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.servicesContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.services {
+  display: flex;
+  justify-content: end;
+} 
+
+
+.textPart h2 {
+  margin-bottom: 20px;
+}
 
 
 
+/* ------------------------------- */
+#sliderB {
+  margin-top: 100px;
+}
 
 
+.Sliderfor {
+  width: 700px;
+  height: 400px;
+  margin-left:200px;
+  margin-bottom: 100px !important;
+}
 
+.slidernav img {
+  width: 400px;
+  height: 300px;
+}
 
+.slidernav {
+  position: absolute;
+  bottom: -521px;
+}
 
+.bigSliderImg {
+  position: relative
+}
 
+.bigSliderImg .slidernav {
+  margin-right: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sliderI {
+  margin-right: 10px;
+}
 
 
 

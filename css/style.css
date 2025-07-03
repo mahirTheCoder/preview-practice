@@ -1,0 +1,209 @@
+.buttonCustomesd button {
+  width: 100px;
+  height: 40px;
+  gap: 20px;
+  color: #000;
+  background: #FFF;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px !important;
+}
+
+
+.buttonCustomesd button:nth-child(1) {
+  margin-right: 20px;
+}
+
+/* ------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+
+
+
+/* ----------------------------------- */
+
+
+
+#imagesAll {
+  margin-top: 100px;
+}
+
+
+.imgpart1 {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.imgpart1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  background: #00000057;
+  transition: all linear 0.4s;
+}
+
+.imgpart1:hover::before {
+  bottom: 0;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all linear 0.4s;
+}
+
+.overlay h2 {
+  font-size: 17px;
+  text-transform: capitalize;
+
+}
+
+.overlay p {
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.imgpart1:hover .overlay {
+  color: #FFF;
+  opacity: 1;
+}
+
+.counterCustomesd{
+  padding-top: 10px;
+}
+
+.counterCustomesd h2 {
+  font-size: 15px;
+}
+.counterCustomesd span {
+  font-size: 15px;
+}
+
+
+/* --------------------------------------------------- */
+
+#tour {
+  margin-top: 100px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
